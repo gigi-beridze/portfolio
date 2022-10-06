@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './components/NavBar'
+import Banner from './components/Banner'
+import Skills from './components/Skills'
+import Projects from './components/Projects'
+import '../src/js/cursor'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './styles/Background.sass'
+import Background  from './components/Background'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='title'>
+  <span>
+    PURE CSS
+  </span>
+  <span>
+    PARALLAX PIXEL STARS
+  </span>
+</div>
+        <NavBar />
+        <Banner />
+        </div>
+        <Skills />
+        <Projects />
+        <Background />
     </div>
   );
 }
