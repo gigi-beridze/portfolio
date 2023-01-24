@@ -1,5 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
+  command = "yarn cross-env PRISMA_HIDE_UPDATE_MESSAGE='1' && yarn rw db up --no-db-client --auto-approve && yarn rw build"
 # dependencies
 /node_modules
 /.pnp
