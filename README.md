@@ -1,8 +1,6 @@
 ```
-Portfolio Website
+Portfolio Website not finished
 ```
-View Demo👇: <br />
-https://gigiberidze.vercel.app/ <br />
 View my Linkedin👇: <br />
 https://www.linkedin.com/in/gigi-beridze-367126214/ <br />
 
